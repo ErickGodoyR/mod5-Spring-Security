@@ -1,0 +1,9 @@
+package org.example.repos;
+
+import org.example.entitys.Rol_Usuario;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface RolUsuarioRepo extends JpaRepository <Rol_Usuario, Integer>{
+}
